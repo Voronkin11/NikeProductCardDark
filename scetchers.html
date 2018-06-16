@@ -17,13 +17,19 @@
 			</header>
 			<section class="product-card">
 				<div class="product-card__column  product-card__column--left">
-					<p class="stefan-janoski-max"><img src="img/Nike-SB-Stefan-Janoski-Max.png" alt="Nike SB Stefan Janoski Max"></p>
-					<ul class="slider-color-variant">
-						<li class="navigation-color-variant__item--navy-blue"></li>
-						<li class="navigation-color-variant__item--white"></li>
-						<li class="navigation-color-variant__item--red"></li>
-						<li class="navigation-color-variant__item--cyan"></li>
-					</ul>
+					<p class="stefan-janoski-max">
+						<img src="img/Nike-SB-Stefan-Janoski-Max.png" alt="Nike SB Stefan Janoski Max">
+					</p>
+					<p class="input-color">
+						<input class="input-color-variant input-color-variant__navy" type="radio" id="variant-navy" name="color" checked>
+						<label class="input-color-variant__label input-color-variant__label--navy" for="variant-navy"></label>
+						<input class="input-color-variant" type="radio" id="variant-white" name="color">
+						<label class="input-color-variant__label input-color-variant__label--white" for="variant-white"></label>
+						<input class="input-color-variant" type="radio" id="variant-red" name="color">
+						<label class="input-color-variant__label input-color-variant__label--red" for="variant-red"></label>
+						<input class="input-color-variant" type="radio" id="variant-cyan" name="color">
+						<label class="input-color-variant__label input-color-variant__label--cyan" for="variant-cyan"></label>
+					</p>
 				</div>
 				<div class="product-card__column  product-card__column--right">
 					<h2 class="product-heading">Nike SB Stefan  Janoski Max</h2>
@@ -36,8 +42,8 @@
 						<li class="product-rating__item">5</li>
 					</ul>
 					<form action="#">
-						<p>
-							<select name="size" id="size-list">
+						<p class="size-wrap">
+							<select class="select-size" name="size" id="size-list">
 								<option value="size_option">Size</option>
 								<option value="size_7">7</option>
 								<option value="size_8">8</option>
@@ -47,8 +53,8 @@
 								<option value="size_12">12</option>
 							</select>
 						</p>
-						<p>
-							<select name="quantity" id="qty-list">
+						<p class="qty-wrap">
+							<select class="select-qty" name="quantity" id="qty-list">
 								<option value="quantity_option">Qty</option>
 								<option value="quantity_1">1</option>
 								<option value="quantity_2">2</option>
