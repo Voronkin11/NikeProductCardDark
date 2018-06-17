@@ -1,3 +1,10 @@
+@font-face {
+	font-family: "MuseoSansLight";
+	src: url("../fonts/MuseoSansLight.woff") format("woff");
+	font-style: normal;
+	font-weight: normal;
+}
+
 .wrapper-catalog {
 	position: relative;
 	width: 800px;
@@ -26,18 +33,21 @@
 	height: 391px;
 	border-radius: 10px;
 	background-color: #152335;
+	font-family: "MuseoSansLight", Arial, sans-serif;
+	color: #e7e7e7;
 }
 
 .catalog__header {
 	width: 100%;
 	height: 70px;
 }
-.logo{
+
+.logo {
 	width: 65px;
 	height: 33px;
 }
 
-.catalog__header--logo {
+.catalog__logo {
 	position: relative;
 	left: 21px;
 	top: 24px;
@@ -52,12 +62,6 @@
 	width: 440px;
 	height: 321px;
 	float: left;
-}
-
-.product-card__column--right {
-	width: 246px;
-	height: 321px;
-	float: right;
 }
 
 .stefan-janoski-max {
@@ -112,4 +116,74 @@
 	width: 12px;
 	height: 12px;
 	box-shadow: 0 0 0 2px #808892;
+}
+
+.product-categori  {
+	padding-top: 8px;
+}
+
+.product-card__column--right {
+	width: 185px;
+	height: 321px;
+	padding-top: 8px;
+	padding-right: 55px;
+	float: right;
+}
+
+.product-heading {
+	margin: 0;
+	margin-bottom: ;
+	font-size: 24px;
+	line-height: 1.1;
+}
+
+.product-categori {
+	margin: 0;
+	margin-bottom: 20px;
+	font-size: 14px;
+	line-height: 1.8;
+}
+
+.product-rating {
+	margin: 0;
+	margin-bottom: 27px;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+}
+
+.product-rating__item {
+	display: inline-block;
+	margin-right: 1px;
+}
+
+.form {
+	font-size: 0;
+}
+
+.btn {
+	border: 1px solid #525c69;
+	font-size: 14px;
+	line-height: 1.3;
+}
+
+.select__btn {
+	width: 69px;
+	height: 32px;
+	margin-right: 2px;
+	margin-bottom: 29px;
+	padding-left: 12px;
+	background-color: unset;
+
+}
+
+.select__option {
+	background-color: #152335;
+}
+
+.btn_button {
+	width: 184px;
+	height: 40px;
+	background-color: #283443;
+	color: #525c69;
 }
