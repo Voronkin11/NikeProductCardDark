@@ -19,7 +19,7 @@
 
 .visually-hidden {
   position: absolute;
-  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -132,7 +132,6 @@
 
 .product-heading {
 	margin: 0;
-	margin-bottom: ;
 	font-size: 24px;
 	line-height: 1.1;
 }
