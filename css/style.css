@@ -33,6 +33,7 @@
 	height: 391px;
 	border-radius: 10px;
 	background-color: #152335;
+	box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.5);
 	font-family: "MuseoSansLight", Arial, sans-serif;
 	color: #e7e7e7;
 }
